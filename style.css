@@ -1,0 +1,96 @@
+/*------------------------Navbar Code------------------------*/
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.navbar li {
+    display: block;
+    border-right: white 1px solid;
+    width: auto;
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar li:hover {
+    background-color:rgb(55, 98, 179);
+    text-decoration: underline;
+}
+
+.navbar li:last-child {
+    border-right: none;
+    border-left: white solid 1px;
+    float: right;
+}
+
+.active {
+    background-color: rgb(55, 98, 179)!important;
+}
+/*-----------------------------All Code-----------------------------------------*/
+.strtheader {
+    border-bottom: 1px solid black;
+}
+
+.center {
+    text-align: center;
+    vertical-align: text-bottom;
+    color: white;
+    font-size: 50px;
+    
+}
+/*-----------------------------Gallery Code-------------------------------------*/
+div#gallery-item1 {
+    width: 600px;
+    height: 400px;
+    background: url(Images/GalleryItem1.jpg) no-repeat;
+    background-size: contain;
+}
+/*-----------------------------Contact Code-------------------------------------*/
+
+h2.contact {
+    text-align: center;
+    font-size: 100px;
+    text-decoration: none;
+}
+
+
+
+/*-----------------------------Homepage Code------------------------------------*/
+#Home-Page {
+    background: url("Images/HomePageItem.jpg") no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    vertical-align: text-bottom;
+}
+/*-----------------------------Projects Code------------------------------------*/
+.flex-container {
+    display: flex;
+    background-color: white;
+    height: 200px;
+}
+
+.flex-item {
+    background-color: blue;
+    margin-right: 25px;
+    object-fit: contain;
+    width: 25%;
+}
+
+.flex-item:last-child {
+    margin-right: 0px;
+}
+
