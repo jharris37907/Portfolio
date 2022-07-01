@@ -65,7 +65,17 @@ h2.contact {
     text-decoration: none;
 }
 
-
+button {
+    height: 70px;
+    width: 70px;
+    border-radius: 20%;
+    position: absolute;
+    top: 270px;
+    left: 80px;
+    background: url("Images/linkedin.webp") no-repeat;
+    background-size: contain;
+    border: 0px;
+}
 
 /*-----------------------------Homepage Code------------------------------------*/
 #Home-Page {
