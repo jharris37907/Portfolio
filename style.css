@@ -83,6 +83,12 @@ button {
     border: 0px;
 }
 
+#LinkedIn {
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+}
+
 /*-----------------------------Homepage Code------------------------------------*/
 #Home-Page {
     background: url("Images/HomePageItem.jpg") no-repeat;
