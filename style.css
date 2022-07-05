@@ -53,6 +53,12 @@
 .center#hemail {
     font-size: 30px;
 }
+/*-----------------------------About Code---------------------------------------*/
+
+.aContent {
+    text-align: center;
+}
+
 /*-----------------------------Gallery Code-------------------------------------*/
 div#gallery-item1 {
     width: 600px;
