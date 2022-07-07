@@ -115,9 +115,18 @@ button {
     margin-right: 25px;
     object-fit: contain;
     width: 25%;
+    height: 250px;
 }
 
 .flex-item:last-child {
     margin-right: 0px;
 }
 
+#Link1 {
+    color: white;
+    font-size: 15px;
+}
+
+#project1 {
+    text-align: center;
+}
