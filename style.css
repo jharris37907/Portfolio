@@ -55,8 +55,13 @@
 }
 /*-----------------------------About Code---------------------------------------*/
 
-.aContent {
+.aContent h3 p {
     text-align: center;
+}
+
+.aContent ul {
+    border: 3px solid black;
+    
 }
 
 /*-----------------------------Gallery Code-------------------------------------*/
